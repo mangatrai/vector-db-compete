@@ -6,7 +6,7 @@ client = weaviate.Client(
     url="http://localhost:8080",  # Replace w/ your endpoint
 #    auth_client_secret=weaviate.AuthApiKey(api_key="YOUR-WEAVIATE-API-KEY"),  # Replace w/ your Weaviate instance API key
     additional_headers={
-        "X-OpenAI-Api-Key": "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",
+        "X-OpenAI-Api-Key": "OPEN-API-KEY",
     },
 )
 
